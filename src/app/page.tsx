@@ -1,4 +1,4 @@
-import { HenloBalance } from "~/app/_components/HenloBalance";
+import { HenloBalance } from "~/components/HenloBalance";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { api, HydrateClient } from "~/trpc/server";
 
