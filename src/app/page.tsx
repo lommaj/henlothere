@@ -1,6 +1,6 @@
 import { HenloBalance } from "~/components/HenloBalance";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
-import { api, HydrateClient } from "~/trpc/server";
+import { HydrateClient } from "~/trpc/server";
 
 export default async function Home() {
   return (
