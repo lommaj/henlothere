@@ -2,8 +2,8 @@ import { getDefaultConfig } from "@rainbow-me/rainbowkit";
 import { base, mainnet, sepolia } from "wagmi/chains";
 
 export const config = getDefaultConfig({
-  appName: "RainbowKit demo",
-  projectId: "YOUR_PROJECT_ID",
+  appName: "henlothere",
+  projectId: "c5a550152027f6684f7ca36d4da9dda2",
   chains: [
     mainnet,
     base,
