@@ -2,6 +2,8 @@ import { HenloBalance } from "~/components/HenloBalance";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { HydrateClient } from "~/trpc/server";
 import { EthPrice } from "~/components/EthPrice";
+import { WalletAddress } from "~/components/WalletAddress";
+
 export default async function Home() {
   return (
     <HydrateClient>
@@ -14,6 +16,7 @@ export default async function Home() {
 
           <div className="flex flex-col items-center gap-4">
             <ConnectButton />
+            <WalletAddress />
             <HenloBalance />
             <EthPrice />
           </div>
