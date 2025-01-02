@@ -1,4 +1,5 @@
 import { type Config } from "tailwindcss";
+import tailwindcssAnimate from "tailwindcss-animate";
 
 export default {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
@@ -60,5 +61,5 @@ export default {
       },
     },
   },
-  plugins: [import("tailwindcss-animate")],
+  plugins: [tailwindcssAnimate],
 } satisfies Config;
